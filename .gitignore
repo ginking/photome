@@ -1,13 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
+*.swp
 # C extensions
 *.so
 
 # Distribution / packaging
-.Python
-env/
 bin/
 build/
 develop-eggs/
@@ -27,7 +25,6 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
 .tox/
 .coverage
 .cache
@@ -41,7 +38,7 @@ coverage.xml
 .mr.developer.cfg
 .project
 .pydevproject
-
+.settings
 # Rope
 .ropeproject
 
@@ -51,4 +48,4 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
-
+db.sqlite3
